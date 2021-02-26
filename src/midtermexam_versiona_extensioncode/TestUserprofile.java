@@ -22,6 +22,8 @@ public class TestUserprofile {
         System.out.println("Comedy, Drama, Drama, Mystery");  
         String g = input.nextLine();
         
+        UserProfile p1 = new UserProfile (n, g);
+        
         System.out.println("Your userProfile was created.");
     }
 }
